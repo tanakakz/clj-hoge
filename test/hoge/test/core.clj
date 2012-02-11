@@ -2,5 +2,8 @@
   (:use [hoge.core])
   (:use [clojure.test]))
 
-(deftest replace-me ;; FIXME: write
-  (is false "No tests have been written."))
+(deftest hoge-test
+  (is (= (hoge) "hoge")))
+
+(deftest hemo-test
+  (is (= (hemo) 1)))
